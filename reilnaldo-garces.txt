@@ -1,0 +1,102 @@
+Hello My Name is Rei
+
+These are my changes.
+
+link to finished codepen: https://codepen.io/reigarces/pen/QWvBoJQ
+
+
+1. What is Semantic HTML? 
+Semantic HTML is code that gives meaning or information. 
+    2. What is HTML used for? 
+HTML is used as the foundation code for a website; texts and pictures.
+    3. What is an attribute and where do we put it? 
+Includes information in an element.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+H1 tag is used as the biggest header/heading. It should only be used once.
+    5. Name two tags that have required attributes
+ <img> tag and <a> tag   
+    6. What do we put in the head of our HTML document? 
+  <title> goes in the <head>
+    7. What is an id? 
+Unique identifier for an element; used for styling for example.
+    8. What elements can I add an id to?
+Any
+    9. How many times can I use the same id on a page? 
+Only once
+    10. What is a class? 
+A class specifies a class name for an HTML element
+    11. What elements can I add a class to? 
+Any
+    12. How many times can I use the same class on a page? 
+Unlimited    
+    13. How do I get my link to open in a new tab?
+target="_blank"
+    14. What is the alt attribute in the image tag used for? 
+ As an alternate title for an image in case the image does not load; discriptive text   
+    15. How do I reference an id?
+period. 
+    16. What is the difference between a section and a div
+section conveys meaning to webpage while div does not.
+    17. What is CSS used for? 
+For styling a webpage
+    18. How to we select an element? Example - every h2 on the page
+h2{
+
+}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+ID can be used to identify one element and class can identify multiple at once. 
+    20. How do we select classes in CSS?
+period.
+    21. How do we select a p element with a single class of “human””?
+.human{
+
+}
+    22. What is a parent child selector? When would this be useful? 
+Parent child selectors are elements that have "children" under them. This is useful when you want to manipulate a whole chunk of code.
+    23. How do you select all links within a div with the class of sidebar?
+.sidebar{
+
+}
+    24. What is a pseudo selector?
+Specifies special state of selected elements
+    25. What do we use the change the spacing between lines?
+line-height
+    26. What do we use to change the spacing between letters?
+letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+text-transform
+    28. How do I add a 1px border around my div that is dotted and black?
+div{
+
+}
+    29. How do I select everything on the page? 
+body{
+
+}
+    30. How do I write a comment in CSS?
+/* */
+    31. How do I find out what file I am in, when I am using the command line? 
+ls
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+rm
+    34. Why should I use version control? 
+Helps teams solve problems
+    35. How often should I commit to github?
+Every 20 minutes
+    36. What is the command we would use to push our repo up to github? 
+git push -u origin
+    37. Walk me through Lambda's git flow. 
+clone add commit clone push
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+Inline goes within a line of code and block covers entire block of code
+    2. What happens when an element is positioned absolutely? 
+It no longer exists
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+    <div> tag
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
